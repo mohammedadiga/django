@@ -17,13 +17,13 @@
 
     
     -Bush All data in DATABASES --DATABASES_FILI is['db.sqlite3']-- ==> [python manage.py migrate]
-    -gryate User And Password For login in DATABASES ==> [python manage.py createsuperuser]
+    -Create User And Password For login in DATABASES ==> [python manage.py createsuperuser]
 
-    -chek app ==> [python manage.py makemigrations]  --> so Bush the DATABASES in ==> [python manage.py migrate]
-    -cehek server is run ==>  [python manage.py runserver]
+    -chek app ==> [python manage.py makemigrations]  --> So Bush the DATABASES in ==> [python manage.py migrate]
+    -run server in locallhost ==>  [python manage.py runserver]
 
 
-    -extract all backgec for requirements.txt ==> [pip freeze > requirements.txt]
+    -extract all packages for requirements.txt ==> [pip freeze > requirements.txt]
 
 - Upload Project On GitHub
 
