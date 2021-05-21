@@ -16,7 +16,7 @@
     -deactivate 
 
     
-    -Bush All data in DATABASES --DATABASES_FILI is['db.sqlite3']-- ==> [python manage.py migrate]
+    -push All data in DATABASES --DATABASES_FILI is['db.sqlite3']-- ==> [python manage.py migrate]
     -Create User And Password For login in DATABASES ==> [python manage.py createsuperuser]
 
     -chek app ==> [python manage.py makemigrations]  --> So Bush the DATABASES in ==> [python manage.py migrate]
@@ -31,3 +31,9 @@
 - View : logic
 - models : db
 - templates : frontend
+
+
+- Relations :
+    -one to many    [user - posts]   == Foreginkey
+    -many to many   [user - groups]
+    -one to one     [user - profile]
